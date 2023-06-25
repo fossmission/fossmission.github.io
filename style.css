@@ -63,4 +63,13 @@ body {
   .timeline__paragraph {
     line-height: 1.5;
   }
+  #video-container {
+    display: none;
+  }
+  
+  #hover-text:hover + #video-container,
+  #video-container:hover {
+    display: block;
+  }
+  
   
